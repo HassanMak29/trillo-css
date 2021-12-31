@@ -93,9 +93,27 @@
         </nav>
         <main class="detail">
           <div class="gallery">
-            <img src="img/hotel-1.jpg" alt="Hotel 1" class="photo" />
-            <img src="img/hotel-2.jpg" alt="Hotel 2" class="photo" />
-            <img src="img/hotel-3.jpg" alt="Hotel 3" class="photo" />
+            <img
+              srcset="img/hotel-1-small.jpg 650w, img/hotel-1.jpg 1500w"
+              sizes="(max-width: 900px) 33vw, (max-width: 600px) 22vw, 320px"
+              src="img/hotel-1.jpg"
+              alt="Hotel 1"
+              class="photo"
+            />
+            <img
+              srcset="img/hotel-2-small.jpg 650w, img/hotel-2.jpg 1500w"
+              sizes="(max-width: 900px) 33vw, (max-width: 600px) 22vw, 320px"
+              src="img/hotel-2.jpg"
+              alt="Hotel 2"
+              class="photo"
+            />
+            <img
+              srcset="img/hotel-3-small.jpg 650w, img/hotel-3.jpg 1500w"
+              sizes="(max-width: 900px) 33vw, (max-width: 600px) 22vw, 320px"
+              src="img/hotel-3.jpg"
+              alt="Hotel 3"
+              class="photo"
+            />
           </div>
           <div class="overview">
             <div class="overview__info">
